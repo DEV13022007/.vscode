@@ -1,6 +1,11 @@
 #include<stdio.h>
 int main() {
-    // my first code
-    printf("hello world");
+    // area of square
+    int side;
+    printf("enter side :");
+    scanf("%d",& side);
+
+    printf(" area of square is %d", side * side);
+    
     return 0;
 }
